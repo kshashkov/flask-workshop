@@ -70,7 +70,3 @@ def pclass_vs_sex():
     plt.bar (result.keys(), result.values())
     plt.savefig('static/tmp/pclass_vs_sex.png')
     return render_index ("pclass_vs_sex.png")
-
-
-# run the Flask web server from Python
-app.run()
